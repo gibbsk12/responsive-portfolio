@@ -145,10 +145,10 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 980px) {
     body{
-        width: 980px;
+        width: 100%;
     }
     .information {
-        width: 600px;
+        width: 66%;
         margin: 50px;
     }
 
@@ -168,13 +168,13 @@ input[type=submit]:hover {
 
 @media only screen and (max-width:768px){
     body{
-        width: 768px;
+        width: 100%;
     }
     #navbar{
-        width: 768px;
+        width: 100%;
     }
     .information {
-        width: 660px;
+        width: 85%;
         margin: 30px;
     }
 
@@ -196,14 +196,14 @@ input[type=submit]:hover {
 
 @media only screen and (max-width:640px){
     body{
-        width: 640px;
+        width: 100%;
     }
     #navbar{
-        width: 640px;
+        width: 100%;
         margin-left: 0px;
     }
     .information {
-        width: 550px;
+        width: 85%;
     }
     .portfolioimage{
         width: 500px;
