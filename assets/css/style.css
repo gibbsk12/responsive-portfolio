@@ -144,8 +144,11 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-width: 980px) {
-    body{
-        width: 100%;
+    body, {
+        width: 85%;
+    }
+    #navbar{
+        width:85%;
     }
     .information {
         width: 66%;
@@ -160,10 +163,15 @@ input[type=submit]:hover {
     .portfolioheader{
         width: 230px;
     }
-    .name{
-        margin-left: 30px;
-    }
 
+    .links{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 20%;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width:768px){
@@ -191,6 +199,15 @@ input[type=submit]:hover {
     }
     textarea{
         max-width:95%;
+    }
+
+    .links{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 15%;
+        text-align: center;
     }
 }
 
@@ -224,8 +241,11 @@ input[type=submit]:hover {
         width: 100%;
     }
     .links{
-        width: 100px;
-        padding: 20px;
+        float: left;
+        width: 33%;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        text-align: center;
     }
     #AboutMe{
         clear: both;
