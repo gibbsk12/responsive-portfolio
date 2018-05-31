@@ -1,6 +1,6 @@
 # responsive-portfolio
 
-This is the part one of the second assignment completed for the Univeresity of Richmond Bootcamp.
+This is the part one of the second assignment completed for the University of Richmond Bootcamp.
 
 In this assignment, we were required to create a portfolio enhanced with a mobile-responsive layout. 
 
